@@ -1,0 +1,369 @@
+@media screen and (max-width: 768px) {
+    .gamburger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    .header__text {
+        font-size: calc(10px + 1.5vw);
+    }
+
+    .header__title {
+        font-size: calc(10px + 4.5vw);
+    }
+
+    .header__subtitle {
+        font-size: calc(10px + 1.5vw);
+    }
+
+    .section-story__title {
+        font-size: calc(10px + 1.5vw);
+    }
+
+    .section-story__text {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section-story__cards {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .section-story__title {
+        font-size: calc(5px + 1.5vw);
+    }
+
+    .section-story__text-main {
+        width: 70%;
+        text-align: center;
+        font-size: calc(2px + 2vw);
+        line-height: 18px;
+    }
+
+    .section-story__text-general {
+        margin-bottom: 2em;
+        width: 70%;
+        text-align: center;
+        font-size: calc(2px + 2vw);
+        letter-spacing: 0.1px;
+    }
+
+    .section-story__card {
+        margin: 0;
+    }
+
+    .section-story__card-notebook {
+        margin: 0 calc(2px + 3vw) 0;
+    }
+
+    .capabilities {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .section-capabilities__title {
+        font-size: calc(10px + 1.5vw);
+        text-align: center;
+        margin-bottom: calc(4px + 1vw);
+        margin-right: 0;
+    }
+
+    .section-capabilities__title:after {
+        margin: calc(1px + 0.3vw) auto;
+    }
+
+    .section-capabilities__text {
+        width: 50%;
+        font-size: calc(5px + 1vw);
+        text-align: center;
+        letter-spacing: 0.2px;
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+
+    .btn__services {
+        padding: 0.2em;
+        width: 20%;
+        
+        font-size: calc(3px + 1vw);
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+    }
+
+    .cards__item-title {
+        font-size: calc(3px + 1.1vw);
+        letter-spacing: 0.2px;
+    }
+
+    .cards__item-text {
+        font-size: calc(4px + 1.2vw);
+        color: #48555B;
+    }
+
+    .city__title {
+        margin-bottom: calc(15px + 5vw);
+        width: 70%;
+        font-size: calc(15px + 1.5vw);
+        line-height: calc(10px + 1.5vw);
+    }
+
+    .btn {
+        padding: 0.2em;
+        width: 25%;
+        background: #00A4E5;
+        font-weight: bold;
+        font-size: calc(4px + 1.5vw);
+        line-height: 15px;
+        letter-spacing: 0.7px;
+    }
+
+    .signup__text {
+        font-size: 20px;
+    }
+
+    .form__input {
+        width: 200px;
+        height: 15px;
+    }
+
+    .form__btn {
+        height: 35px;
+    }
+
+    .footer-text {
+        font-size: calc(3px + 1.5vw);
+    }
+
+
+    .efore-footer-left {
+        display: inline-block;
+        margin-left: 10%;
+    }
+
+    .before-footer-left__title {
+        font-size: 10px;
+        line-height: 13px;
+        padding-top: 10%;
+        letter-spacing: 0px;
+    }
+
+    .before-footer-left__logo {
+        font-size: 27px;
+        padding-top: 4%;
+    }
+
+    .before-footer-left__text {
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .before-footer-center__links {
+        margin-left: 4%;
+    }
+
+    .links {
+        font-size: 11px;
+        padding-top: 30%;
+    }
+
+    .links-list {
+        padding-top: 35%;
+    }
+
+    .links-item {
+        font-size: 9px;
+        line-height: 23px;
+    }
+
+    .before-footer-center__three-links {
+        margin-left: 1%;
+        margin-top: 7.7%;
+    }
+    
+    .item-faq {
+        font-size: 9px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+
+    .before-footer-right {
+        margin-left: 2%;
+        margin-top: 7.7%;
+    }
+
+    .contact {
+        margin-bottom: 17%;
+    }
+
+    .tel {
+        padding-bottom: 7%;
+        padding-top: 7%;
+    }
+
+    .images {
+        margin-top: 0px;
+        margin-left: 42%;
+    }
+
+}
+
+@media screen and (max-width: 568px) {
+    .header__text {
+        font-size: calc(5px + 1.5vw);
+    }
+
+    .header__subtitle {
+        font-size: calc(5px + 1.5vw);
+    }
+
+    .section-story__title {
+        font-size: calc(3px + 1.5vw);
+    }
+
+    .section-story__text-main {
+        width: 100%;
+        text-align: center;
+        font-size: calc(2px + 2vw);
+        line-height: 18px;
+    }
+
+    .section-story__text-general {
+        width: 100%;
+        text-align: center;
+        font-size: calc(2px + 2vw);
+        letter-spacing: 0.1px;
+    }
+
+    .section-story__cards {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .section-story__card {
+        width: 100%;
+        text-align: center;
+        font-size: calc(2px + 5vw);
+        height: calc(30px + 12vw);
+    }
+
+    .section-story__card-notebook {
+        margin: 0;
+    }
+
+    .section-capabilities__title {
+        font-size: calc(3px + 1.5vw);
+    }
+
+    .section-capabilities__text {
+        font-size: calc(2px + 2vw);
+        letter-spacing: 0.1px;
+    }
+
+    .btn__services {
+        padding: 0.2em;
+        width: 25%;
+        font-size: calc(2px + 1vw);
+       
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .cards__item {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-right: calc(2px + 1vw);
+    }
+
+    .cards__item-title {
+        font-size: calc(3px + 1.5vw);
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2.3px;
+        text-align: center;
+    }
+
+    .cards__item-text {
+        text-align: center;
+        
+    }
+
+    .signup {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: black;
+        align-items: center;
+        height: 50px;
+    }
+
+    .signup__text {
+        font-size: 13px;
+    }
+
+    .form__input {
+        width: 140px;
+        height: 5px;
+    }
+
+    .form__btn {
+        height: 25px;
+        width: 80px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    
+    .header__title {
+        font-size: calc(5px + 4.5vw);
+    }
+    
+    .header__text {
+        font-size: calc(5px + 1.5vw);
+    }
+    .header__subtitle {
+        font-size: calc(3px + 1.5vw);
+    }
+
+}
